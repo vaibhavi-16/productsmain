@@ -1,0 +1,451 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display:inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+p{
+  color: #000000;
+
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+
+}
+
+
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+  font-family: serif;
+}
+.btn{
+  display: inline-block;
+  background: #e83544;
+  color: #ffffff;
+  padding: 8px 30px;
+  margin: 30px 0px;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+.btn:hover{
+  background:#0a0a0a;
+
+}
+.header{
+  background: radial-gradient(#ffffff,#9cb0d6);
+}
+.header  .row{
+  margin-top: 70px;
+}
+
+
+.categories{
+  margin: 70px 0;
+}
+
+
+.col-3{
+  flex: 30%;
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+
+
+.col-3 img{
+  width: 100%;
+}
+
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+
+
+.col-4{
+  flex-basis: 25%;
+  padding:10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.8s;
+}
+
+
+.col-4 img{
+  width: 100%;
+}
+
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #000000;
+}
+
+
+.title::after{
+  content: '';
+  background:#d91e1e;
+  width:80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50px);
+
+
+
+}
+
+h4{
+  color:#000000;
+  font-weight:normal;
+}
+.col-4 p{
+  font-size: 14px;
+
+}
+
+.rating .fa{
+  color: #eb1010;
+}
+.col-4:hover{
+  transform: translateY(-15px);
+
+}
+
+/*--offered--*/
+.offer{
+  background: radial-gradient(#ffffff,#9cb0d6);
+  margin-top: 80px;
+  padding: 30px 0;
+}
+
+
+.col-2 .offer-img{
+  padding: 50px;
+}
+
+
+small{
+  color: #2e2f30;
+
+}
+
+
+/*--testimonial--*/
+.testimonial{
+  padding-top:100px;
+}
+
+
+.testimonial .col-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.8s;
+}
+
+
+
+.testimonial .col-3 img{
+  width: 50px;
+  margin-top: 20px;
+  border-radius:50%;
+}
+
+
+.testimonial .col-3:hover{
+  transform: translateY(-15px);
+}
+
+
+.fa.fa-quote-left{
+  font-size: 24px;
+  color: #e82525;
+}
+
+
+.col-3 p{
+  font-size: 12px;
+  margin: 12px 0;
+  color: #4a4747;
+}
+
+
+
+.testimonial .col-3 h3{
+  font-weight: 600;
+  color:#000000;
+  font-size: 16px;
+
+}
+
+
+/*--brands--*/
+
+.brands{
+  margin: 100px 0;
+}
+
+.col-5{
+  width: 160px;
+}
+
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
+  filter:grayscale(100%);
+}
+
+.col-5 img:hover{
+  filter:grayscale(0);
+}
+
+/*--footer--*/
+.footer{
+  background: #000000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+
+
+.footer p{
+  color: #8a8a8a;
+
+}
+
+
+.footer h3{
+  color: #ffffff;
+  margin-bottom: 20px;
+
+}
+
+.footer-col-1 , .footer-col-2 , .footer-col-3 , .footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+}
+
+
+ .footer-col-2 img{
+   width: 180px;
+   margin-bottom:20px;
+
+ }
+
+.footer-col-3,.footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+
+}
+
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top:20px;
+}
+
+.app-logo img{
+  width: 140px;
+
+}
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+/*-- media query for menu --*/
+
+@media only screen  and (max-width:800px){
+
+  nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul li a{
+    color:#ffffff;
+  }
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+  }
+}
+<style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/*--all products page--*/
+
+.row-2{
+  justify-content: space-between;
+  margin-top:100px;
+  margin-bottom: 50px;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  justify-content: space-between;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #b6c4cf;
+}
+</style>
+
+.page-btn{
+  margin: 0 auto  80px;
+
+}
+
+
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.page-btn span:hover{
+  background: #ff523b;
+  color: #ffffff;
+}
+/*--single products details--*/
+
+.single-product{
+  margin-top: 80px;
+}
+/*-- media query for less than 600 screen size--*/
+
+@media only screen and (max-width:600px;){
+  .row{
+    text-align: center;
+
+  }
+  .col-2, .col-3, .col-4{
+    flex-basis: 100%;
+  }
+}

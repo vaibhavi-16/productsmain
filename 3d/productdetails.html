@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ALL PRODUCTS - RED STORE</title>
+    <link  href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" width="125px">
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="">HOME</li>
+          <li><a href="">PRODUCTS</li>
+          <li><a href="">ABOUT</li>
+          <li><a href="">CONTACT</li>
+          <li><a href="">ACCOUNT</li>
+
+        </ul>
+      </nav>
+      <img src="images/cart.png" width="30px" height="30px">
+      <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+    </div>
+    </div>
+    </div>
+    <!--single product details-->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/gallery-1.jpg" width="100%">
+
+        </div>
+        <div class="col-2">
+         <p>HOME / T-SHIRT</p>
+         <h1>Maroon Puma T-shirt</h1>
+         <h4>₹2,540.00</h4>
+         <div class="dropdown">
+           <button class="dropbtn">PRODUCTS DETAILS</button>
+           <div class="dropdown-content">
+             <a href="#">Select Size</a>
+             <a href="#">XXL</a>
+             <a href="#">XL</a>
+             <a href="#">Large</a>
+             <a href="#">Medium</a>
+           </div>
+         </div>
+         <input type="number" value="1">
+         <a href="#" class="btn">Add To Cart</a>
+
+         <h3>Details Product</h3>
+         <p>Give your summer wardrobe a style upgrade with
+            the Puma men's active T-SHIRt. Choose from a wide range of polo,
+            round, V neck & more Men's T-shirts in various designs at Myntra.
+         </p>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+        <div class="small-container">
+
+          <div class="row">
+            <div class="col-4">
+              <img src="images/product-1.jpg">
+              <h4>Maroon Puma T-shirt</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹2340.00</p>
+            </div>
+            <div class="col-4">
+              <img src="images/product-2.jpg">
+              <h4>Black HRX Sports Shoes</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>₹4540.00</p>
+            </div>
+            <div class="col-4">
+              <img src="images/product-3.jpg">
+              <h4>Roadstar Grey Lower</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹1540.00</p>
+            </div>
+            <div class="col-4">
+              <img src="images/product-4.jpg">
+              <h4>Dark Blue Puma T-shirt</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹3000.00</p>
+            </div>
+          </div>
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col-1">
+                <h3>DOWNLOAD OUR APP</h3>
+                <p>Download app for Androids and IOS mobile phones.</p>
+                <div class="app-logo">
+                  <img src="images/play-store.png">
+                  <img src="images/app-store.png">
+                </div>
+              </div>
+              <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>It's our pleasure and sustainibility so that people can buy our
+                  product easily and be happy and enjoy their life style.</p>
+              </div>
+              <div class="footer-col-3">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                  <li>COUPONS</li>
+                  <li>BLOG POST</li>
+                  <li>RETURN POLICY</li>
+                  <li>JOIN AFFILATE</li>
+                </ul>
+              </div>
+              <div class="footer-col-4">
+                <h3>FOLLOW US</h3>
+                <ul>
+                  <li>FACEBOOK</li>
+                  <li>TWITTER</li>
+                  <li>INSTAGRAM</li>
+                  <li>YOUTUBE</li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 --- Vaibhavi  Creations</p>
+          </div>
+
+        </div>
+        <!--js query-->
+        <script>
+
+        var MenuItems = document.getElementById("MenuItems");
+
+           MenuItems.style.maxHeight = "0px";
+
+           function menutoggle() {
+             if( MenuItems.style.maxHeight == "0px";)
+             {
+                MenuItems.style.maxHeight = "200px";
+             }
+             else
+               {
+                 MenuItems.style.maxHeight = "0px";
+               }
+             }
+        </script>
+  </body>
+</html>
